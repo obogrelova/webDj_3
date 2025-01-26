@@ -2,9 +2,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.index, name='home'),
-    path('newpage2', views.newpage2, name='page2'),
-    path('newpage3', views.newpage3, name='page3'),
-    path('newpage4', views.newpage4, name='page4'),
-    path('newpage5', views.newpage5, name='page5')
+    path('', views.home, name='news_home')
 ]
